@@ -20,11 +20,11 @@ SETUP ON WINDOWS WITH XAMPP
 4. Visit http://localhost/phpmyadmin/
 5. Click Import, choose this project's database.sql, and click Import/Go.
 6. The SQL script creates a new database named hostelhub_student_portal, so it will not overwrite your earlier demo database. If your MySQL root account has a password, open config.php and set DB_PASS to it. The default XAMPP setup often uses an empty password.
-7. Open http://localhost/HostelHub_HTML_Project/
+7. Open http://localhost/Hostel-Hub/
 
 DEMO ADMIN LOGIN
 ----------------
-Email: admin@hostelhub.local
+Email:aqsarazaq12@gmail.com
 Password: Admin@123
 This is a demonstration password. Do not use it for a public/real deployment.
 
@@ -43,8 +43,4 @@ ADMIN USE
 ---------
 - Log in with the demo admin credentials above.
 - Review students and room requests, approve/decline requests, assign fee records, mark fees paid for demo tracking, and resolve complaints.
-- To assign a fee, open Fee Records and choose Add fee.
-
-IMPORTANT
----------
-This is a learning/demo project, not a production-ready system. The fee status feature does not collect real payments. Change the demo admin password and apply a stronger security review before any public deployment. The project files were syntax-checked, but you should test them on your own XAMPP setup.
+- To assign a fee, open Fee Records and choose paid or unpaid
